@@ -1,0 +1,6 @@
+# Normalisation des fins de ligne : LF dans le dépôt, natif dans la copie locale.
+* text=auto
+
+# Fichiers binaires : pas de conversion ni de diff textuel.
+*.png binary
+*.pdf binary

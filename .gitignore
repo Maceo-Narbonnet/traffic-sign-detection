@@ -1,0 +1,34 @@
+# --- Jeu de données ---
+# Les images et annotations sont fournies par l'UTC et ne sont pas redistribuées.
+data/
+
+# --- Sorties générées ---
+images_results/     # images annotées produites par predict_test.py
+detection.csv       # CSV de détection horodaté (sortie de travail)
+resultats_evaluation.txt
+*.joblib            # modèles entraînés (regénérables via predict_test.py retrain)
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- LaTeX ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+# docs/rapport.pdf est versionné volontairement (rendu du rapport)
+
+# --- Divers ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
